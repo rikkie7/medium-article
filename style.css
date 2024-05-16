@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-h1 {
-  font-size: 38px;
-  text-align: center;
-}
-
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
 
 .banner {
   background-image: url(https://source.unsplash.com/random/1000x500);
@@ -21,6 +11,13 @@ h1 {
 .container{
   width: 700px;
   margin: 50px auto;
+}
+
+.banner h1 {
+  font-size: 38px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .banner p {
